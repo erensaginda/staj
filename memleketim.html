@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <body>
+        <nav class="nav" id="topNav">
+            <a href="hakkimda.html" class="active">Hakkımda</a>
+            <a href="memleketim.html">Memleketim</a>
+            <a href="derssayfasi.html">Ders Sayfası</a>
+            <a href="hobi.html">İlgi Duyulan Alan</a>
+            <a href="iletisim.html">İletişim</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </nav>
+
+          <hr>
+
+    <section class="section">
+        <h1 class="heading"> İstanbul Hakkında  </h1>
+        <hr>
+        <p class="paragraf"> <b>İstanbul,</b> Türkiye'nin Marmara Bölgesinde yer alan 81 ilden biridir.
+         Ülkenin nüfus bakımından en çok göç alan ve en kalabalık şehridir. Ekonomik ve sosyo-kültürel açıdan ülkenin en önde gelen 
+         şehirlerinden biridir. Şehir, iktisadi büyüklük açısından dünyada 34. sırada yer alır. Nüfuslarına göre şehirler listesinde belediye sınırları
+        göz önüne alınarak yapılan sıralamaya göre Avrupa'da birinci, dünyada ise altıncı sırada yer almaktadır. <em>Kaynak:Wikipedia</em> </p>
+        <hr>
+         <figure>
+         <img src="./Pictures/Kız Kulesi.jpg" alt="Kız Kulesi" class="center">
+         <figcaption style="text-align:center;"> <em> Hem yerli hem yabancı turistlerin en uğrak noktalarından biri olan "Kız Kulesi"</em> </figcaption>
+        </figure>
+
+        <figure>
+            <img src="./Pictures/İstanbul.png" alt="İstanbul" class="center">
+            <figcaption style="text-align:center;"> <em>İstanbul'un Türkiye'deki konumu.</em></figcaption>
+        </figure>
+        <hr>
+
+        <p class="paragraf">
+            <b>İstanbul, </b> Türkiye'nin kuzeybatısında, <b>Marmara kıyısı </b> ve <b>Boğaziçi</b> boyunca, <b>Haliç'</b>i de çevreleyecek şekilde kurulmuştur.
+            <b>İstanbul</b> kıtalararası bir şehir olup, Avrupa'daki bölümüne <b>Avrupa Yakası</b>
+            veya Rumeli Yakası, <b>Asya'</b> daki bölümüne ise <b>Anadolu Yakası</b> veya Asya Yakası denir.
+            Tarihte ilk olarak üç tarafı <b>Marmara Denizi,</b> <b>Boğaziçi</b> ve <b>Haliç'</b>in sardığı bir yarımada üzerinde kurulan İstanbul'un batıdaki sınırını 
+            <b>İstanbul Surları</b> oluşturmaktaydı. Gelişme ve büyüme sürecinde surların her seferinde daha batıya ilerletilerek inşa edilmesiyle dört defa genişletilen şehrin
+            39 ilçesi vardır.  Sınırları içerisinde ise büyükşehir belediyesi ile birlikte toplam 40 belediye bulunmaktadır. <em>Kaynak:Wikipedia</em>
+        </p>
+
+        <figure>
+            <img src="./Pictures/İstanbul Haritası.png" alt="İstanbul Haritası" class="center">
+            <figcaption style="text-align:center;"><em>İstanbul Haritası</em></figcaption>
+        </figure>
+        
+
+        <figure>
+            <img src="./Pictures/Bizans Dönemi İstanbul.gif" alt="Bizans Döneminde İstanbul" class="center">
+            <figcaption style="text-align:center;"><em>Bizans Döneminde İstanbul</em></figcaption>
+        </figure>
+        
+
+        <p class="paragraf">
+            Dünyanın en eski şehirlerinden biri olan İstanbul, 330-395 yılları arasında <b>>Roma İmparatorluğu</b>, 395-1204 yılları arasında <b> Latin İmparatorluğu</b>
+             ve son olarak 1453-1922 yılları arasında <b>Osmanlı İmparatorluğu'</b>na başkentlik yaptı. Ayrıca İstanbul, Hilafetin Osmanlı İmparatorluğu'na geçtiği 1517'den
+             kaldırıldığı 1924'e kadar İslam dünyasının da merkezi oldu.
+        </p>
+    </section>
+          <script>
+            function myFunction() {
+              var x = document.getElementById("topNav");
+              if (x.className === "nav") {
+                x.className += " responsive";
+              } else {
+                x.className = "nav";
+              }
+            }
+            </script>
+</body>
+</html>

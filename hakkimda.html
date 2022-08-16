@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="nav" id="topNav">
+        <a href="hakkimda.html" class="active">Hakkımda</a>
+        <a href="memleketim.html">Memleketim</a>
+        <a href="derssayfasi.html">Ders Sayfası</a>
+        <a href="hobi.html">İlgi Duyulan Alan</a>
+        <a href="iletisim.html">İletişim</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+      
+      <section>
+        <p class="paragraf"> Merhaba, ben Eren sağında. Ankara Üniversitesi, Bilgisayar Programcılığı öğrencisiyim.  </p>
+        <hr>
+        <iframe width="500" height="350" src="https://www.youtube.com/watch?v=yvX0srSSugI" frameborder="0" allowfullscreen style="margin-left:auto; margin-right:auto;"></iframe>
+        </iframe>
+      </section>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("topNav");
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
+      </script>
+        
+</body>
+</html>
